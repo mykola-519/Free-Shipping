@@ -41,6 +41,7 @@ if (token) {
   store.dispatch({ type: SET_AUTH });
 }
 
+// Main
 const app = () => (
   <Provider store={store}>
     <ConnectedRouter history={history}>
